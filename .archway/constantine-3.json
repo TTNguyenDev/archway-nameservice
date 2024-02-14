@@ -1,0 +1,159 @@
+{
+  "deployments": [
+    {
+      "action": "instantiate",
+      "txhash": "949EB5FEF3398B5B7C08BF48D16AEF00059358F27BC222C4CE366998B486C528",
+      "wasm": {
+        "codeId": 2069
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0",
+        "address": "archway1r37p7h8up2g3z6ack68uf3cfrx0l8m2dvlwu7thzrlw92lr0x62stjue8k",
+        "admin": "archway122qa0jexnptstaw3tfqvjl2cqmjxe8nwts7pdj"
+      },
+      "msg": {
+        "purchase_price": {
+          "amount": "10",
+          "denom": "aconst"
+        }
+      }
+    },
+    {
+      "action": "store",
+      "txhash": "E5854D69C00E51CDB0D79CCC5F6DBEAD300A610F507F56A66FCD4452A24E13AC",
+      "wasm": {
+        "codeId": 2069,
+        "checksum": "80ccf357ecb1bf3f00a4380ea283fd491b8fb711423bc07a87f38f0e051bbb64"
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "action": "instantiate",
+      "txhash": "E5C6F63D65276043158198958358B132F5DB44F661AD3238868DF98C88E07D1D",
+      "wasm": {
+        "codeId": 2068
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0",
+        "address": "archway1qt7470gqnqejftxy5dx2zhl779ghpgp0mmru6z0zgdazskqtz0hq6cwvww",
+        "admin": "archway1uuhs2lumkgxm233wr6gwqt00w8352g9gjftsh7"
+      },
+      "msg": {
+        "purchase_price": {
+          "amount": "10",
+          "denom": "aconst"
+        }
+      }
+    },
+    {
+      "action": "store",
+      "txhash": "9C2E6FB21A990511CD361A0BB32C36FB8487C840875710BE2584C8B1F5224F57",
+      "wasm": {
+        "codeId": 2068,
+        "checksum": "83fc1f78a3ae65859bcdc638f855fc0852fe680cb3047e0d3946c7b24a10e82e"
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "action": "instantiate",
+      "txhash": "CDB9921327E59D6A9C9D581CC6477FED409D130A14D4AB19239E268061FDD318",
+      "wasm": {
+        "codeId": 2067
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0",
+        "address": "archway1fm2c630myd4j27t96ln07wc6huz29uzjk4gd3dpgj0wnsmlsqkxs2mq6ut",
+        "admin": "archway1ldjesmsnw3k8ww9jfzekqlvveyefgaz42dlr3y"
+      },
+      "msg": {
+        "purchase_price": {
+          "amount": "10",
+          "denom": "aconst"
+        }
+      }
+    },
+    {
+      "action": "store",
+      "txhash": "4DE50F53521D83E69A40BF1F15DC5DD9D760CEABD6E40CAC897C0403FDF4F994",
+      "wasm": {
+        "codeId": 2067,
+        "checksum": "915f54770e01a8b0125795599bc3180b51e8e5184de646095e5d2dfc3732ce18"
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "action": "instantiate",
+      "txhash": "6C7394E97758EE6105041FB460299D5A15890B815CF633D6375AFD48ECA368BE",
+      "wasm": {
+        "codeId": 2066
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0",
+        "address": "archway1u5hhmdsr6jwanuuxzshfl9y9ra8slvp2q43f2wlgvjl6n2c2g7hq87vuzy",
+        "admin": "archway1ldjesmsnw3k8ww9jfzekqlvveyefgaz42dlr3y"
+      },
+      "msg": {
+        "purchase_price": {
+          "amount": "10",
+          "denom": "aconst"
+        }
+      }
+    },
+    {
+      "action": "store",
+      "txhash": "AF5702342B0FF0F63F4C0B45785464A33201D773159760C3A09314FC2CDFFE35",
+      "wasm": {
+        "codeId": 2066,
+        "checksum": "cc417b4bf4e01088c5f59b3ef0f32d9e55aa00dab9e545be91b22df5491183cb"
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "action": "instantiate",
+      "txhash": "F788C28443E5CD996C58E972F06F324210F93D1D6C46890B8B50727094326A3E",
+      "wasm": {
+        "codeId": 2065
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0",
+        "address": "archway1r2lmv9237clllzgdlvdze6dt2n7ny4df2d4a4wjl2lf58xmtr75s5pns4v",
+        "admin": "archway1ldjesmsnw3k8ww9jfzekqlvveyefgaz42dlr3y"
+      },
+      "msg": {
+        "purchase_price": {
+          "amount": "10",
+          "denom": "aconst"
+        }
+      }
+    },
+    {
+      "action": "store",
+      "txhash": "4A3EBB3AC77A7A618981138A975A9FCD67B9F9F67707F46D191E0EB0626044F8",
+      "wasm": {
+        "codeId": 2065,
+        "checksum": "1705f26ff9a84ac1d20f1fec3a0ccc0de12a3657665d1a837cf06c1cf10ee298"
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}

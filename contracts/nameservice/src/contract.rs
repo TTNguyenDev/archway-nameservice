@@ -38,7 +38,7 @@ pub fn execute(
 pub fn register(deps: DepsMut, info: MessageInfo, name: String) -> Result<Response, ContractError> {
     validate_name(&name);
     let init_price = PURCHASE_PRICE.load(deps.storage)?;
-    assert_sent_sufficient_coin(&info.funds, Some(init_price.clone()));
+    assert_sent_sufficient_coin(&info.funds, init_price.clone())?;
 
     let key = name.as_bytes();
     if (NAME_RECORDS.may_load(deps.storage, key)?).is_some() {
@@ -67,7 +67,7 @@ pub fn transfer(
         return Err(ContractError::NameNotExists { name: name.clone() });
     };
 
-    let coin = assert_sent_sufficient_coin(&info.funds, Some(record.price))?;
+    let coin = assert_sent_sufficient_coin(&info.funds, record.price)?;
     let new_owner = deps.api.addr_validate(&to)?;
     NAME_RECORDS.update(deps.storage, key, |record| {
         if let Some(mut record) = record {

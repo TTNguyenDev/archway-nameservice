@@ -10,7 +10,7 @@ pub enum ContractError {
     Unauthorized {},
 
     #[error("Insufficient funds sent")]
-    InsufficientFundsSend {},
+    InsufficientFundsSend { need: u128 },
 
     #[error("Name does not exist (name {name})")]
     NameNotExists { name: String },
