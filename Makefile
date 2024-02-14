@@ -5,7 +5,7 @@ store:
 init:
 	archway contracts instantiate nameservice --args '{"purchase_price": {"amount": "10", "denom": "aconst"}}'
 register:
-	archway contracts execute nameservice --args '{"register": {"name": "chris"}}' --amount 9aconst
+	archway contracts execute nameservice --args '{"register": {"name": "chris"}}' --amount 11aconst
 query:
 	archway contracts query smart nameservice --args '{"record": {"name": "chris"}}'
 transfer:

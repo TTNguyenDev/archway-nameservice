@@ -2,6 +2,37 @@
   "deployments": [
     {
       "action": "instantiate",
+      "txhash": "3582CEA5200995D6A2DD5C8230E7B5DA11C2AAD417BD2FF2E68EFBD44CAC4231",
+      "wasm": {
+        "codeId": 2070
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0",
+        "address": "archway1hdgppxq4x3uk6vdavsndld8xlufz72nssllap0ykujh5rth0y22szp7scj",
+        "admin": "archway122qa0jexnptstaw3tfqvjl2cqmjxe8nwts7pdj"
+      },
+      "msg": {
+        "purchase_price": {
+          "amount": "10",
+          "denom": "aconst"
+        }
+      }
+    },
+    {
+      "action": "store",
+      "txhash": "19627CAC5D8521A8BF6E7501EE9BB47DC41D03D1A38DFDAD0EE37364F0155CEB",
+      "wasm": {
+        "codeId": 2070,
+        "checksum": "7c849cec17aaa131a07dafc84bfccdc539481179d4a97006767335094dd63c81"
+      },
+      "contract": {
+        "name": "nameservice",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "action": "instantiate",
       "txhash": "949EB5FEF3398B5B7C08BF48D16AEF00059358F27BC222C4CE366998B486C528",
       "wasm": {
         "codeId": 2069
